@@ -10,8 +10,8 @@ Basics of functions:
             return def B(parameter):
                 param = const + param
                 return ...
-- A good way to add extra functionality to code via metamethods
--   __index__(self):
+- A good way to add extra functionality to code via metamethods (python calls them dunder or magic methods...)
+-   __init__(self):
         ... # OOP constructor
 -   __str__(self):
         return ... # override string representation / functionality (must return type string)
