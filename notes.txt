@@ -1,0 +1,32 @@
+Basics of functions:
+- Callable snippets of code, typically needed to be ran multiple times.
+- Optional return value
+    - Can be used for mapping values via functions,
+    - Variable transformation
+        - IE. newList = foo(list[strings]) -> converts string to upper (value.upper())
+    - Building constructors and setting constants
+        - def A(const):
+            constant = const
+            return def B(parameter):
+                param = const + param
+                return ...
+- A good way to add extra functionality to code via metamethods
+-   __index__(self):
+        ... # OOP constructor
+-   __str__(self):
+        return ... # override string representation / functionality (must return type string)
+    
+
+A functions primary behaviour would be to run a predictable batch of operations / modifications to a value
+
+Lua function example:
+
+function foo(num)
+    return num * num
+end
+
+Python function example
+
+def foo(num):
+    return num ** 2
+
